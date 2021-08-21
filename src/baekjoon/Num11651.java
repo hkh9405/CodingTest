@@ -1,10 +1,10 @@
 package baekjoon;
 
-import java.util.Scanner;
 import java.util.Arrays;
- 
-public class Num11650 {
-	
+import java.util.Scanner;
+
+public class Num11651 {
+
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
@@ -13,8 +13,8 @@ public class Num11650 {
 		int[][] arr = new int[N][2];
 		
 		for(int i = 0; i < N; i++) {
-			arr[i][0] = sc.nextInt();
 			arr[i][1] = sc.nextInt();
+			arr[i][0] = sc.nextInt();
 		}
 		
 		Arrays.sort(arr, (e1, e2) -> {
@@ -26,8 +26,8 @@ public class Num11650 {
 		});
 		
 		for(int i = 0; i < N; i++) {
-			System.out.println(arr[i][0] + " " + arr[i][1]);
+			System.out.println(arr[i][1] + " " + arr[i][0]);
 		}
 	}
-	
+
 }
