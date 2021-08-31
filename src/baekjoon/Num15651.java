@@ -4,16 +4,16 @@ import java.util.Scanner;
 
 public class Num15651 {
 	
-	public static int[] arr;
-	public static int N, M;
-	public static StringBuilder sb = new StringBuilder();
+	private static int[] arr;
+	private static int N, M;
+	private static StringBuilder sb = new StringBuilder();
  
 	public static void main(String[] args) {
  
-		Scanner in = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
  
-		N = in.nextInt();
-		M = in.nextInt();
+		N = sc.nextInt();
+		M = sc.nextInt();
  
 		arr = new int[M];
         
